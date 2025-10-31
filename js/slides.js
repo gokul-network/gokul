@@ -26,8 +26,8 @@ window.cleanupDelay = 1400;
 window.horizontalMode = 0;
 window.sidebarShown = 0;
 window.loadingProgress = 0;
-window.smoothScroll = 0;
-window.scrollSpeed = 0.1;
+window.smoothScroll = 1;
+window.scrollSpeed = 0.5;
 window.preload = 1;
 window.setHashLink = 1;
 window.hideSidebarOnBodyClick = 1;
@@ -575,8 +575,8 @@ $(document).ready(function() { "use strict";
             event.preventDefault();
             
             //smooth scroll
-            if (energy > 2400) { energy = 2400; }
-            if (energy < -2400) { energy = -2400; }
+            if (energy > 3600) { energy = 3000; }
+            if (energy < -3600) { energy = -3000; }
               
             TweenLite.to($currentSection, 0.5, {
               scrollTo : { y: curSecScrolltop - energy, autoKill:false },
