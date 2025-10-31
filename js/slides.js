@@ -69,11 +69,11 @@ $(document).ready(function() { "use strict";
   //Set speed
   if ($body.hasClass('fast')){
     //fast 
-    window.slideSpeed = 1000;  
-    window.cleanupDelay = 1500;
-    window.effectSpeed = 1100;
-    window.scrollSpeed = 0.5;
-    window.effectOffset = 400;
+    window.slideSpeed = 1300;  
+    window.cleanupDelay = 1800;
+    window.effectSpeed = 1300;
+    window.scrollSpeed = 0.75;
+    window.effectOffset = 500;
   } else if ($body.hasClass('slow')){
     //slow
     window.slideSpeed = 1400;  
