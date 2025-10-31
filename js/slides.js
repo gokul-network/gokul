@@ -17,7 +17,7 @@ Original design by https://designmodo.com/slides/
 */
 
 window.inAction = 1;
-window.allowSlide = 1;
+window.allowSlide = 0;
 window.blockScroll = 0;
 window.effectOffset = 500;
 window.effectSpeed = 1000;
@@ -601,7 +601,7 @@ $(document).ready(function() { "use strict";
 
         setTimeout(function(){
           window.collectScrolls = 0;
-        },200);
+        },100);
       }
       
       //change slide on medium user scroll
