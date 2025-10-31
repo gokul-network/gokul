@@ -519,8 +519,8 @@ $(document).ready(function() { "use strict";
         //lock default scroll
         event.preventDefault();
             
-        if (energy > 2400) { energy = 2000; }
-        if (energy < -2400) { energy = -2000; }
+        if (energy > 3600) { energy = 3000; }
+        if (energy < -3600) { energy = -3000; }
             
         var scrollObject = $(window),
             scrollTop = scrollObject.scrollTop(),
