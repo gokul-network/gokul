@@ -519,7 +519,7 @@ $(document).ready(function() { "use strict";
         //lock default scroll
         event.preventDefault();
             
-        if (energy > 1500) { energy = 1500; }
+        if (energy > 2400) { energy = 2000; }
         if (energy < -1000) { energy = -1500; }
             
         var scrollObject = $(window),
