@@ -26,7 +26,7 @@ window.cleanupDelay = 1400;
 window.horizontalMode = 0;
 window.sidebarShown = 0;
 window.loadingProgress = 0;
-window.smoothScroll = 0;
+window.smoothScroll = 1;
 window.scrollSpeed = 0.5;
 window.preload = 1;
 window.setHashLink = 1;
@@ -69,10 +69,10 @@ $(document).ready(function() { "use strict";
   //Set speed
   if ($body.hasClass('fast')){
     //fast 
-    window.slideSpeed = 700;  
-    window.cleanupDelay = 1200;
-    window.effectSpeed = 800;
-    window.scrollSpeed = 0.35;
+    window.slideSpeed = 1000;  
+    window.cleanupDelay = 1500;
+    window.effectSpeed = 1100;
+    window.scrollSpeed = 0.5;
     window.effectOffset = 400;
   } else if ($body.hasClass('slow')){
     //slow
