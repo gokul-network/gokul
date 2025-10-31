@@ -496,7 +496,7 @@ $(document).ready(function() { "use strict";
 
   $('html,body').on('DOMMouseScroll mousewheel scroll touchmove', function(event){
     var $currentSection = $('.slide.selected .content'),
-        scrollsize = Math.ceil(Math.abs(event.deltaY) * event.deltaFactor),
+        scrollsize = Math.ceil(Math.abs(event.deltaY) * event.deltaFactor * 0.5),
         browserScrollRate = (window.isFirefox) ? 2 : 1,
         OSScrollRate = (window.isWindows) ? browserScrollRate * 2 : browserScrollRate,
         wheelDelta = (event.originalEvent.wheelDelta) ? event.originalEvent.wheelDelta : event.deltaY * event.deltaFactor,
@@ -601,7 +601,7 @@ $(document).ready(function() { "use strict";
 
         setTimeout(function(){
           window.collectScrolls = 0;
-        },100);
+        },400);
       }
       
       //change slide on medium user scroll
