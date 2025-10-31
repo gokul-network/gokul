@@ -72,7 +72,7 @@ $(document).ready(function() { "use strict";
     window.slideSpeed = 1300;  
     window.cleanupDelay = 1800;
     window.effectSpeed = 1300;
-    window.scrollSpeed = 0.75;
+    window.scrollSpeed = 20;
     window.effectOffset = 500;
   } else if ($body.hasClass('slow')){
     //slow
@@ -80,7 +80,7 @@ $(document).ready(function() { "use strict";
     window.cleanupDelay = 2000;
     window.effectSpeed = 1400;
     window.effectOffset = 400;
-    window.scrollSpeed = .8;
+    window.scrollSpeed = 40;
     window.effectOffset = 600;
   }
   
