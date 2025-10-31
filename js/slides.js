@@ -520,7 +520,7 @@ $(document).ready(function() { "use strict";
         event.preventDefault();
             
         if (energy > 2400) { energy = 2000; }
-        if (energy < -1000) { energy = -1500; }
+        if (energy < -2400) { energy = -2000; }
             
         var scrollObject = $(window),
             scrollTop = scrollObject.scrollTop(),
@@ -575,8 +575,8 @@ $(document).ready(function() { "use strict";
             event.preventDefault();
             
             //smooth scroll
-            if (energy > 1500) { energy = 1500; }
-            if (energy < -1000) { energy = -1500; }
+            if (energy > 2400) { energy = 2400; }
+            if (energy < -2400) { energy = -2400; }
               
             TweenLite.to($currentSection, 0.5, {
               scrollTo : { y: curSecScrolltop - energy, autoKill:false },
