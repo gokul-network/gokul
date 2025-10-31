@@ -18,7 +18,7 @@ Original design by https://designmodo.com/slides/
 
 window.inAction = 1;
 window.allowSlide = 1;
-window.blockScroll = 1;
+window.blockScroll = 0;
 window.effectOffset = 500;
 window.effectSpeed = 1000;
 window.slideSpeed = 1000;
@@ -31,7 +31,7 @@ window.scrollSpeed = 0.1;
 window.preload = 1;
 window.setHashLink = 1;
 window.hideSidebarOnBodyClick = 1;
-window.collectScrolls = 0;
+window.collectScrolls = 1;
 window.sliderStatus = 0;
 window.minScrollToSlide = 2600;
 window.minSwipeToSlide = 4000;
