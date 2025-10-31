@@ -31,12 +31,12 @@ window.scrollSpeed = 0.1;
 window.preload = 1;
 window.setHashLink = 1;
 window.hideSidebarOnBodyClick = 1;
-window.collectScrolls = 1;
+window.collectScrolls = 0;
 window.sliderStatus = 0;
 window.minScrollToSlide = 2600;
-window.minSwipeToSlide = 4000;
+window.minSwipeToSlide = 400000;
 window.enableMobileZoom = 0;
-window.hideOnScrollSensitivity = 100;
+window.hideOnScrollSensitivity = 200;
 window.allowParallaxOnMobile = 1;
 window.hidePopupOnBodyClick = 1;
 
